@@ -1,0 +1,54 @@
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(12, OUTPUT);  // pin 12 will power LED
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(200);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(200);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(580);
+    // ---------------------------------------------
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(500);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(500);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(500);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(500);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(500);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(500);
+    // -------------------------------------------
+digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(200);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(200);
+
+  digitalWrite(12, HIGH);   // set the LED on
+  delay(200);               // for 500ms
+  digitalWrite(12, LOW);   // set the LED off
+  delay(700);
+  
+}
